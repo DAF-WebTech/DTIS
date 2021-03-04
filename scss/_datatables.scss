@@ -1,0 +1,55 @@
+.data-tables {
+    margin-bottom: 1rem;
+
+    .sorting_asc {
+        background-color: #f6f6f6;
+    }
+    .sorting_asc::after {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        content: "\f0de";
+        margin-left: 0.35rem;
+    }
+
+    .sorting_desc {
+       background-color: #f6f6f6;
+    }
+    .sorting_desc::after {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        content: "\f0dd";
+        margin-left: 0.35rem;
+    }
+}
+
+
+.dataTables_wrapper {
+    margin-bottom: 2rem;
+}
+.dataTables_paginate {
+    text-align:center;
+    a {
+        margin: 0 0.5rem;
+    }
+}
+.dataTables_info {
+    text-align:center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.dataTables_filter {
+    text-align: right;
+    background-color: #f6f6f6;
+    border: 1px solid #d6d6d6;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 1.5rem
+}
+    input {
+        border: 1px solid #c6c6c6;
+        font-family: inherit;
+        font-size: inherit;
+        margin-left: 0.25rem;
+        padding: 0.25rem 0.5rem;    
+    }
+}
