@@ -32,6 +32,9 @@ h4 {
     font-family: inherit;
     font-size: inherit;
     color: #111;
+	border: 1px solid #666;
+	border-radius: 5px;
+	text-decoration: none;
     
     &:hover {
         color: #111;
